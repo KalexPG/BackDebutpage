@@ -5,7 +5,7 @@
 }
 
 body{
-    background:linear-gradient(rgb(67, 67, 184), rgb(175, 49, 49))
+    background-color: cadetblue;
 }
 /*-----MENU-------*/
 
@@ -109,6 +109,10 @@ body{
 /* tipo de letra en css se escribe font-size y como las letras son parrafos la llamamos con p para darle estilos  */ /*dejame terminar de hacer el header y veo si puedo ayuda yo de eso no se mucho */
 
 
+
+
+/* que tal  todo bien */
+
 /*acesorios*/
 
 
@@ -116,28 +120,6 @@ body{
     margin: 5em 2em 0 2em;
 }
 
-.container-items{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.item{
-    width: 100%;
-    height: 300px;
-    background-color: red;
-    border-radius: 10px;
-}
-
-.item:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-
-}
-
-.item img{
-    width: 100%;
-    height: 200px;
-}
 
 /*back*/
 
@@ -159,10 +141,7 @@ body{
     margin-top: -25px;
 }
 
-.conter-back1{
 
-    
-}
 
 .orden-back{
     display: flex;
@@ -251,4 +230,73 @@ body{
 }
 .mas-juego:hover{
     color: black;
+}
+
+
+
+
+
+
+/*TABLE*/
+h4{
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid black;
+}
+
+
+.table{
+    margin: 15px auto;
+    background: hsla(0, 1%, 15%, 0.267);
+    width: 95%;
+    height: 100px;
+}
+
+.table th{
+    margin: 15px;
+    padding: 15px;
+
+    border-bottom: 1px solid black;
+}
+
+
+.btn-busca{
+    cursor: pointer;
+    border: 1px solid black;
+    color: white;
+    background-color: rgba(56, 136, 228, 0.952);
+    border-radius: 5px;
+    margin: 12px 25px;
+    
+    width: 200px;
+    height: 50px;
+    
+    display: inline;
+
+}
+
+.btn-busca:hover{
+    color: white;
+    background-color: rgba(56, 136, 228, 0.952);
+    box-shadow: 0 5px 10px;
+
+}
+
+
+
+/*/FOrmulario con lista**/
+
+.title-label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 40%;
+}
+
+.input-label{
+    font-size: 20px;
+    margin-left: 135px;
+    margin: 15px 36%;
+    display: inline-block;
 }
